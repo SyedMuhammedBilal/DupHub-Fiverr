@@ -66,33 +66,7 @@ export default function Blog() {
                 Tags:
               </h6>
             </div>
-            <div className="col ml-n5">
-              {/* Badges */}
-              <a
-                className="badge rounded-pill bg-secondary-soft"
-                href="blog-search.html"
-              >
-                <span className="h6 text-uppercase">Design</span>
-              </a>
-              <a
-                className="badge rounded-pill bg-secondary-soft"
-                href="blog-search.html"
-              >
-                <span className="h6 text-uppercase">Product</span>
-              </a>
-              <a
-                className="badge rounded-pill bg-secondary-soft"
-                href="blog-search.html"
-              >
-                <span className="h6 text-uppercase">UX</span>
-              </a>
-              <a
-                className="badge rounded-pill bg-secondary-soft"
-                href="blog-search.html"
-              >
-                <span className="h6 text-uppercase">Resources</span>
-              </a>
-            </div>
+          
           </div>{" "}
           {/* / .row */}
         </div>
@@ -123,7 +97,7 @@ export default function Blog() {
               >
                 {/* Image (placeholder) */}
                 <img
-                  src="assets/img/photos/photo-27.jpg"
+                  src="https://landkit.goodthemes.co/assets/img/photos/photo-5.jpg"
                   alt="..."
                   className="img-fluid d-md-none invisible"
                 />
@@ -154,7 +128,8 @@ export default function Blog() {
                   {/* Avatar */}
                   <div className="avatar avatar-sm mr-2">
                     <img
-                      src="assets/img/avatars/avatar-1.jpg"
+                    width='8%'
+                      src="https://landkit.goodthemes.co/assets/img/avatars/avatar-2.jpg"
                       alt="..."
                       className="avatar-img rounded-circle"
                     />
@@ -209,7 +184,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-15.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-15.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -239,7 +214,9 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-1.jpg"
+                width='8%'
+              
+                  src="https://landkit.goodthemes.co/assets/img/avatars/avatar-1.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -260,7 +237,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-14.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-14.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -290,7 +267,8 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-2.jpg"
+                width='8%'
+                  src="https://landkit.goodthemes.co/assets/img/avatars/avatar-2.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -313,7 +291,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-7.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-7.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -343,7 +321,9 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-1.jpg"
+                  width='8%'
+              
+              src="https://landkit.goodthemes.co/assets/img/avatars/avatar-1.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -468,7 +448,7 @@ export default function Blog() {
                   >
                     {/* Image (placeholder) */}
                     <img
-                      src="assets/img/photos/photo-26.jpg"
+                      src="https://landkit.goodthemes.co/assets/img/photos/photo-4.jpg"
                       alt="..."
                       className="img-fluid d-md-none invisible"
                     />
@@ -549,7 +529,9 @@ export default function Blog() {
                       {/* Avatar */}
                       <div className="avatar avatar-sm mr-2">
                         <img
-                          src="assets/img/avatars/avatar-1.jpg"
+                          width='8%'
+              
+              src="https://landkit.goodthemes.co/assets/img/avatars/avatar-1.jpg"
                           alt="..."
                           className="avatar-img rounded-circle"
                         />
@@ -595,7 +577,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-28.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-28.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -626,8 +608,9 @@ export default function Blog() {
               <hr className="card-meta-divider" />
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
-                <img
-                  src="assets/img/avatars/avatar-1.jpg"
+              <img width='8%'
+              
+              src="https://landkit.goodthemes.co/assets/img/avatars/avatar-1.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -648,7 +631,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-29.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-29.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -680,7 +663,9 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-2.jpg"
+                  width='8%'
+              
+              src="https://landkit.goodthemes.co/assets/img/avatars/avatar-1.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -703,7 +688,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-6.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-6.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -733,7 +718,9 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-1.jpg"
+                 width='8%'
+              
+              src="https://landkit.goodthemes.co/assets/img/avatars/avatar-2.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -754,7 +741,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-4.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-4.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -784,7 +771,8 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-2.jpg"
+                width='8%'
+                  src="https://landkit.goodthemes.co/assets/img/avatars/avatar-2.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />
@@ -807,7 +795,7 @@ export default function Blog() {
             <a className="card-img-top" href="#!">
               {/* Image */}
               <img
-                src="assets/img/photos/photo-5.jpg"
+                src="https://landkit.goodthemes.co/assets/img/photos/photo-5.jpg"
                 alt="..."
                 className="card-img-top"
               />
@@ -888,7 +876,8 @@ export default function Blog() {
               {/* Avatar */}
               <div className="avatar avatar-sm mr-2">
                 <img
-                  src="assets/img/avatars/avatar-1.jpg"
+                width='8%'
+                  src="https://landkit.goodthemes.co/assets/img/avatars/avatar-2.jpg"
                   alt="..."
                   className="avatar-img rounded-circle"
                 />

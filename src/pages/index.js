@@ -1,6 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Airbnd from './svg/airbnd'
+import Coin from './svg/coinbase'
+import Dribble from './svg/dribble'
+import Insta from './svg/Insta'
+import Netflix from './svg/Netflix'
+import Pin from './svg/Pinterest'
 
 
 export default function Home() {
@@ -28,16 +34,16 @@ export default function Home() {
         <div className="col-12 col-md-5 col-lg-6 order-md-2">
           {/* Image */}
           <img
-            src="assets/img/illustrations/illustration-2.png"
+            src="https://landkit.goodthemes.co/assets/img/illustrations/illustration-2.png"
             className="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
             alt="..."
             data-aos="fade-up"
             data-aos-delay={100}
           />
         </div>
-        <div className="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
+        <div className="col-12 col-md-9 col-lg-6 order-md-1" data-aos="fade-up">
           {/* Heading */}
-          <h1 className="display-3 text-center text-md-left">
+          <h1 className="display-6 text-center text-md-left">
             Welcome to <span className="text-primary">Landkit</span>. <br />
             Develop anything.
           </h1>
@@ -66,16 +72,14 @@ export default function Home() {
     {/* / .container */}
   </section>
   {/* FEATURES */}
-  <section className="py-8 py-md-11 border-bottom">
+  <section className="py-4 py-md-11 border-bottom">
     <div className="container">
       <div className="row">
         <div className="col-12 col-md-4" data-aos="fade-up">
           {/* Icon */}
-          <div className="icon text-primary mb-3">
-            {"{"}
-            {"{"}&gt; general/settings-1{"}"}
-            {"}"}
-          </div>
+          <div class="icon text-primary mb-3">
+              <svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"></path><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"></path></g></svg>
+            </div>
           {/* Heading */}
           <h3>Built for developers</h3>
           {/* Text */}
@@ -86,11 +90,9 @@ export default function Home() {
         </div>
         <div className="col-12 col-md-4" data-aos="fade-up" data-aos-delay={50}>
           {/* Icon */}
-          <div className="icon text-primary mb-3">
-            {"{"}
-            {"{"}&gt; layout/layout-arrange{"}"}
-            {"}"}
-          </div>
+          <div class="icon text-primary mb-3">
+              <svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"></path><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"></path></g></svg>
+            </div>
           {/* Heading */}
           <h3>Designed to be modern</h3>
           {/* Text */}
@@ -105,11 +107,9 @@ export default function Home() {
           data-aos-delay={100}
         >
           {/* Icon */}
-          <div className="icon text-primary mb-3">
-            {"{"}
-            {"{"}&gt; code/code{"}"}
-            {"}"}
-          </div>
+          <div class="icon text-primary mb-3">
+              <svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"></rect></g></svg>
+            </div>
           {/* Heading */}
           <h3>Documentation for everything</h3>
           {/* Text */}
@@ -127,59 +127,43 @@ export default function Home() {
   <section className="py-6 py-md-8 border-bottom">
     <div className="container">
       <div className="row align-items-center justify-content-center">
+
+{/* airbnd */}
+<div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+       <Airbnd/>
+       </div>
+
+        {/* air bnd */}
+
+        
         <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
           {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/airbnb{"}"}
-            {"}"}
-          </div>
+          <Coin/>
         </div>
         <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
           {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/coinbase{"}"}
-            {"}"}
-          </div>
+          <Dribble/>
         </div>
         <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
           {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/dribbble{"}"}
-            {"}"}
-          </div>
+         <Insta/>
         </div>
         <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
           {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/instagram{"}"}
-            {"}"}
-          </div>
+          <Netflix/>
         </div>
         <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
           {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/netflix{"}"}
-            {"}"}
-          </div>
-        </div>
-        <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
-          {/* Brand */}
-          <div className="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
-            {"{"}
-            {"{"}&gt; logotype/pinterest{"}"}
-            {"}"}
-          </div>
+          <Pin/>
         </div>
       </div>{" "}
       {/* / .row */}
     </div>{" "}
     {/* / .container */}
   </section>
+
+
+  
   {/* ABOUT */}
   <section className="pt-8 pt-md-11 bg-gradient-light">
     <div className="container">
@@ -252,17 +236,13 @@ export default function Home() {
           <div className="card shadow-light-lg lift lift-lg">
             {/* Image */}
             <img
-              src="assets/img/photos/photo-2.jpg"
+              src="https://landkit.goodthemes.co/assets/img/photos/photo-2.jpg"
               alt="..."
               className="card-img-top"
             />
             {/* Shape */}
             <div className="position-relative">
-              <div className="shape shape-bottom shape-fluid-x svg-shim text-white">
-                {"{"}
-                {"{"}&gt; curves/curve-1{"}"}
-                {"}"}
-              </div>
+            
             </div>
             {/* Body */}
             <div className="card-body">
@@ -324,11 +304,9 @@ export default function Home() {
           {/* List */}
           <div className="d-flex">
             {/* Icon */}
-            <div className="icon text-primary">
-              {"{"}
-              {"{"}&gt; media/repeat{"}"}
-              {"}"}
-            </div>
+            <div class="icon text-primary">
+                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M12 8H8a4 4 0 00-4 4v1a3 3 0 003 3v2a5 5 0 01-5-5v-1a6 6 0 016-6h4V4.728a.5.5 0 01.8-.4l2.856 2.133a.5.5 0 01-.001.802l-2.857 2.121A.5.5 0 0112 8.983V8z" fill="#335EEA"></path><path d="M12.058 16H16a4 4 0 004-4v-1a3 3 0 00-3-3V6a5 5 0 015 5v1a6 6 0 01-6 6h-3.942v.983a.5.5 0 01-.798.401l-2.857-2.12a.5.5 0 010-.803l2.856-2.134a.5.5 0 01.8.401V16z" fill="#335EEA" opacity=".3"></path></g></svg>
+              </div>
             <div className="ml-5">
               {/* Heading */}
               <h4 className="mb-1">Bootstrap users since the beginning</h4>
@@ -341,11 +319,9 @@ export default function Home() {
           </div>
           <div className="d-flex">
             {/* Icon */}
-            <div className="icon text-primary">
-              {"{"}
-              {"{"}&gt; code/code{"}"}
-              {"}"}
-            </div>
+            <div class="icon text-primary">
+                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"></rect></g></svg>
+              </div>
             <div className="ml-5">
               {/* Heading */}
               <h4 className="mb-1">Deep understanding of Bootstrap</h4>
@@ -364,15 +340,13 @@ export default function Home() {
           >
             {/* Shape */}
             <div className="shape shape-fluid-y shape-blur-4 svg-shim text-gray-200">
-              {"{"}
-              {"{"}&gt; blurs/blur-4{"}"}
-              {"}"}
+              
             </div>
             {/* Image */}
             <div className="img-skewed img-skewed-left">
               {/* Image */}
               <img
-                src="assets/img/screenshots/desktop/dashkit.jpg"
+                src="https://landkit.goodthemes.co/assets/img/screenshots/desktop/dashkit.jpg"
                 className="screenshot img-fluid img-skewed-item"
                 alt="..."
               />
@@ -536,9 +510,7 @@ export default function Home() {
   {/* SHAPE */}
   <div className="position-relative mt-n8">
     <div className="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
-      {"{"}
-      {"{"}&gt; curves/curve-3{"}"}
-      {"}"}
+     
     </div>
   </div>
   {/* STATS */}
@@ -548,7 +520,7 @@ export default function Home() {
         <div className="col-12 col-md-5 col-lg-6 order-md-2">
           {/* Image */}
           <img
-            src="assets/img/illustrations/illustration-8.png"
+            src="https://landkit.goodthemes.co/assets/img/illustrations/illustration-8.png"
             alt="..."
             className="img-fluid mb-6 mb-md-0"
           />
@@ -575,7 +547,7 @@ export default function Home() {
                   data-aos
                   data-aos-id="countup:in"
                 />
-                %
+                100%
               </h3>
               <p className="text-gray-700 mb-0">Satisfaction</p>
             </div>
@@ -583,12 +555,9 @@ export default function Home() {
             <div className="px-5">
               <h3 className="mb-0">
                 <span
-                  data-countup='{"startVal": 0}'
-                  data-to={24}
-                  data-aos
-                  data-aos-id="countup:in"
-                />
-                /
+                
+                >24/7</span>
+                
                 <span
                   data-countup='{"startVal": 0}'
                   data-to={7}
@@ -607,7 +576,7 @@ export default function Home() {
                   data-aos
                   data-aos-id="countup:in"
                 />
-                k+
+                100k+
               </h3>
               <p className="text-gray-700 mb-0">Sales</p>
             </div>
@@ -782,11 +751,7 @@ export default function Home() {
   </section>
   {/* SHAPE */}
   <div className="position-relative mt-n15">
-    <div className="shape shape-bottom shape-fluid-x svg-shim text-dark">
-      {"{"}
-      {"{"}&gt; curves/curve-1{"}"}
-      {"}"}
-    </div>
+    
   </div>
   {/* FAQ */}
   <section className="pt-15 bg-dark">
